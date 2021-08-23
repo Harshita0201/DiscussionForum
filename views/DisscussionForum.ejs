@@ -1,0 +1,27 @@
+<%- include('partials/header') %>
+
+<div class="jumbotron text-center">
+  <div class="container">
+    <i class="fas fa-key fa-6x"></i>
+    <h1 class="display-3">Create your own discussion forum here:</h1>
+    <a class="btn btn-dark btn-lg" href="/compose" role="button">Create</a>
+    <hr>
+    <p class="forum-text">View Some currently published Forums.</p>
+    <hr>
+  <div class="forum">
+     <%  forums.forEach(function(forum){ %>
+       <h2>Topic-: <%=forum.forumTopic%></h2>
+       <h4>Created By-: <%=forum.username%></h4>
+       <p>
+         <%=forum.forumBody%>
+       </p>
+       <a class="btn btn-light btn-sm"  href="/contribute" role="button">Contribute</a>
+       <hr class="forumhr">
+    <% }) %>
+  </div>
+    <a class="btn btn-dark btn-lg" href="/logout" role="button">Log Out</a>
+
+  </div>
+</div>
+
+<%- include('partials/footer') %>

@@ -1,0 +1,17 @@
+<%- include('partials/header') %>
+<div class="compose-container">
+  <h1>Compose a Forum</h1>
+  <hr>
+    <form class="" action="/compose" method="POST">
+      <div class="form-group">
+        <label>Topic</label>
+        <input class="form-control" type="text" name="forumTopic" placeholder="Add a topic">
+        <label>Description</label>
+        <textarea class="form-control" name="forumBody" rows="10" cols="30" placeholder="Give description to your project."></textarea>
+      </div>
+      <button class="btn btn-primary" type="submit" name="button">Publish</button>
+    </form>
+
+</div>
+
+<%- include('partials/footer') %>

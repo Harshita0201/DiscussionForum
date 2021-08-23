@@ -1,0 +1,46 @@
+
+body {
+  background-color: #E8ECEF;
+}
+
+.centered {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.forum-text {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #000;
+}
+
+.forum{
+  background-color:#423F3E;
+  border: 5px white;
+  color: #fff;
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.forumhr{
+  border: 3px solid #E8ECEF;
+  border-radius: 1px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+}
+
+
+.forum h2, h4, p{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+}
+
+.compose-container{
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
